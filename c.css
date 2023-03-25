@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background-color: #1f2837;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar {
+  background-color: #1f2837;
+  color: white;
+  height: 70px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.nav ul li {
+  font-size: 18px;
+
+  color: #e5e7eb;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.main {
+  color: #fff;
+}
+.main h1 {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 48px;
+}
+.main .container {
+  margin-top: 60px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .container .left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+button {
+  width: 110px;
+  height: 50px;
+  background-color: #3882f6;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1%;
+  margin-top: 20px;
+  border: none;
+}
+.picture {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+.picutre p {
+  text-align: center;
+}
+.third h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.third .container {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes {
+  margin-top: 20px;
+  flex: 1;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  background-color: white;
+  border-radius: 10px;
+}
+.quote {
+  display: flex;
+  background-color: #e5e7eb;
+  height: 300px;
+}
+.quote .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.quote .container p {
+  align-self: flex-end;
+}
+.quote em {
+  font-size: 36px;
+  font-weight: 50;
+  text-align: justify;
+}
+.quote p {
+  font-weight: bold;
+  font-size: 19px;
+}
+.signup .container {
+  width: 800px;
+  height: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px 50px 25px 50px;
+  background-color: #3882f6;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container button {
+  border: 1px solid #fff;
+}
+.info p {
+  color: #fff;
+}
+
+strong {
+  font-size: 19px;
+  color: #fff;
+}
+footer {
+  background-color: #1f2837;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 25px 50px 25px 50px;
+}
